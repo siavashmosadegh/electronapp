@@ -13,8 +13,8 @@ function createMainWindow () {
         webPreferences: {
             contextIsolation: true,
             nodeIntegration: true,
-            preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
-        },
+            preload: path.join(__dirname, './preload.js'),
+        }
     });
 
     mainWindow.webContents.openDevTools();
