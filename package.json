@@ -1,0 +1,19 @@
+{
+  "name": "electronapp",
+  "version": "1.0.0",
+  "description": "this is a dummy app",
+  "main": "main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "reactjs",
+    "electronjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^28.1.4"
+  }
+}
